@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+.project {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    max-width: 100%;
+    height: auto;
+}
+
+header .holiTitle h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header .holiTitle h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.card-container-body {
+    width: 50%; /* .card-container'ın genişliğinin yarısını kullanır */
+    margin-left: auto; /* Sol tarafta boşluk bırakır */
+    margin-right: auto; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Düzeni esnek hale getirir */
+    gap: 20px; /* İtemler arasındaki boşluğu ayarlar */
+    padding: 10px; /* İtemlerin etrafına biraz iç boşluk ekler */
+}
+
+.card-container-body img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-container-body li {
+    padding: 10px; /* İçindeki içeriğe biraz boşluk ekler */
+    list-style: none; /* Öntanımlı liste stili kaldırılır */
+    text-align: center; /* Metni yatayda ortalar */
+}
+
+.body-1 {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    display: flex; /* Flexbox kullanarak yan yana hizalama yapılır */
+}
+
+.body-1 .body-1-img {
+    width: 30%; /* %30 genişlik */
+    display: flex; /* İçindeki içeriği yatayda hizalar */
+    justify-content: center; /* İçindeki içeriği merkezler */
+    align-items: center; /* İçindeki içeriği dikeyde merkezler */
+}
+
+.body-1 .body-1-img img {
+    max-width: 100%; /* Resmin genişliğini sınırlar */
+    height: auto; /* Resmin yüksekliğini otomatik ayarlar */
+}
+
+.body-1 .body-1-Subject {
+    width: 70%; /* %70 genişlik */
+    padding: 30px; /* İçeriğe biraz iç boşluk ekler */
+    background-color: #c6f4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-1 .body-1-Subject ul {
+    list-style: none;
+}
+
+.body-1 .body-1-Subject ul li p {
+    font-size: 22px;
+}
+
+.cardX {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.cardX ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Düzeni esnek hale getirir */
+    gap: 20px; /* İtemler arasındaki boşluğu ayarlar */
+    padding: 10px; /* İtemlerin etrafına biraz iç boşluk ekler */
+}
+
+.body-2-Slider {
+    max-width: 100%; /* veya istediğiniz genişlik */
+    height: auto; /* veya istediğiniz yükseklik */
+}
+
+
+
+
+
+
+
+
+   
+
+
+
