@@ -1,25 +1,30 @@
 import React from 'react';
-import Slider from './components/Silder'; // Slider bileşenini import et
+// import Slider from './components/Silder'; // Slider bileşenini import et
 import MyCarousel from './components/MyCarousel';
 import '../styles/App.css'
+
 export default function App() {
 
-    const slides = [
-        "https://i.imgur.com/CYFR9Hl.jpeg",
-        "https://i.imgur.com/rOjATUY.jpeg",
-        "https://i.imgur.com/sWvJph3.jpeg",
-        "https://i.imgur.com/NNs5jrN.jpeg"
-    ];
+    // const slides = [
+    //     "https://i.imgur.com/CYFR9Hl.jpeg",
+    //     "https://i.imgur.com/rOjATUY.jpeg",
+    //     "https://i.imgur.com/sWvJph3.jpeg",
+    //     "https://i.imgur.com/NNs5jrN.jpeg"
+    // ];
 
 
     return (
         <div className='project'>
             <header>
-                <div className='holiTitle'>
-                    <h1>HOLİDAY</h1>
-                    <h4>You are in the best time to spare time for yourself and your loved ones.</h4>
+                <div className='imgHoliday1'>
+                    <div className="imgHoliday1-content">
+                        <img src="https://i.imgur.com/CYFR9Hl.jpeg" alt="holiday1" />
+                        <div className="imgHoliday1-overlay">
+                            <h1>HOLİDAY</h1>
+                            <h4>You are in the best time to spare time for yourself and your loved ones.</h4>
+                        </div>
+                    </div>
                 </div>
-                <div className='sliderbody'><Slider slides={slides}/></div>
             </header>
 
             <div className='card-container'>
@@ -69,6 +74,41 @@ export default function App() {
                     </li>
                     <li>
                         <blockquote className="twitter-tweet"><p lang="en" dir="ltr">Unplugging for 5 days… no service. Wife and I on a cruise to the Bahamas <a href="https://twitter.com/hashtag/RoyalCaribbean?src=hash&amp;ref_src=twsrc%5Etfw">#RoyalCaribbean</a> <a href="https://twitter.com/hashtag/Unplugged?src=hash&amp;ref_src=twsrc%5Etfw">#Unplugged</a> <a href="https://twitter.com/hashtag/Cruising?src=hash&amp;ref_src=twsrc%5Etfw">#Cruising</a> <a href="https://twitter.com/hashtag/Bahamas?src=hash&amp;ref_src=twsrc%5Etfw">#Bahamas</a> 🏖️🏝️😎🛳️ <a href="https://t.co/cNf96QeEYz">pic.twitter.com/cNf96QeEYz</a></p>&mdash; Ryan Vandervort (@Ryan_Vandervort) <a href="https://twitter.com/Ryan_Vandervort/status/1770911816488509572?ref_src=twsrc%5Etfw">March 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+                    </li>
+                </ul>
+            </div>
+
+            <div className='bestOf'>
+                <div className='bestOfTitle'>
+                    <h3>Preferred Tourist Destinations</h3>
+                </div>
+                <ul className='bestOf-ul'>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/R5G2F0s.jpeg")` }}>
+                        <span>Barcelona is a colorful and vibrant city with Gaudí's unique architecture, the Gothic Quarter reflecting the city's history and the warm Mediterranean atmosphere.</span>
+                    </li>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/cXdCFUe.jpeg")` }}>
+                        <span>Rome is one of the most fascinating and romantic cities in the world with its rich history dating back to antiquity, impressive architecture and delicious cuisine.</span>
+                    </li>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/opqXQKX.jpeg")` }}>
+                        <span>Singapore is a vibrant and modern city-state known for its stunning skyline, diverse cultural heritage, and impeccable cleanliness, making it a dynamic destination for travelers from around the world.</span>
+                    </li>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/qRbU8xX.jpeg")` }}>
+                        <span>Paris is a unique city known as the capital of romance, famous for its historical buildings, art museums and world cuisine.</span>
+                    </li>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/fu2ibGx.jpeg")` }}>
+                        <span>Dubai is a cosmopolitan oasis in the desert, renowned for its futuristic skyscrapers, luxury shopping destinations, and extravagant lifestyle, making it a captivating blend of tradition and modernity.</span>
+                    </li>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/kBzfyvg.jpeg")` }}>
+                        <span>Delhi, known as the heart of India, is a fascinating city with a rich historical heritage, colorful markets and diversity.</span>
+                    </li>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/6CgsuYn.jpeg")` }}>
+                        <span>Istanbul is the meeting point of history and culture with its unique location connecting Asia to Europe with its bridge, and a fascinating metropolis with its magnificent Bosphorus view.</span>
+                    </li>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/AwQAxmT.jpeg")` }}>
+                        <span>Prague is one of Europe's most romantic and enchanting cities with its historic old town, gothic architecture and stunning views.</span>
+                    </li>
+                    <li className='bestOfCard' style={{ backgroundImage: `url("https://i.imgur.com/mhJZ8bE.jpeg")` }}>
+                        <span>Seoul is a dynamic metropolis that offers a wonderful synthesis of traditional Korean culture and modern life.</span>   
                     </li>
                 </ul>
             </div>
