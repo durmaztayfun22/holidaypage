@@ -12,75 +12,10 @@ body {
     height: auto;
   }
 
-  .imgHoliday1 {
-    max-width: 100%;
-    height: auto;
-    
-  }
-
-  
-  .imgHoliday1-content img {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
-
-  .imgHoliday1-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white; /* Metin rengini beyaz yapar */
-  }
-
-  .imgHoliday1 img {
-    width: 100%;
-    height: 500px;
-    top: 0;
-    left: 0;
-    position: absolute;
-  }
-
   .card-container {
     
     width: 100%;
     height: auto;
-  }
-
-  .card-container-body {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 10px;
-  }
-
-  .card {
-    margin-top: 180%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .card-container-body img {
-    width: 100px;
-    height: 100px;
-    
-  }
-
-  .card-container-body li {
-    width: 300px;
-    height: auto;
-    padding: 10px;
-    list-style: none;
-    text-align: center;
   }
 
   .body-1 {
@@ -90,47 +25,10 @@ body {
     display: flex;
   }
 
-  .body-1 .body-1-img {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .body-1 .body-1-img img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .body-1 .body-1-Subject {
-    width: 70%;
-    padding: 30px;
-    background-color: #c6f4fa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .body-1 .body-1-Subject ul {
-    list-style: none;
-  }
-
-  .body-1 .body-1-Subject ul li p {
-    font-size: 22px;
-  }
-
   .cardX {
     margin-top: 5%;
     width: 100%;
     height: auto;
-  }
-
-  .cardX ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 10px;
   }
 
   .bestOf {
@@ -138,126 +36,6 @@ body {
     height: auto;
   }
 
-  .bestOfTitle h3 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    text-align: center;
-  }
+ 
 
-  .bestOf-ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .bestOfCard {
-    position: relative;
-    height: 250px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-size: contain; /* Değişiklik burada */
-    background-position: center; /* Değişiklik burada */
-    background-repeat: no-repeat;
-  }
-  
-  .bestOfCard::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Place the background behind the text */
-  }
-  
-  .bestOfCard span {
-    position: relative; /* Position the span relative to the li */
-    z-index: 1; /* Ensure the text is above the background */
-    color: white; /* White text color */
-    text-align: center;
-  }
-
-  .body-2-Slider {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /*card-1*/
-
-      .body-2-Card1 {
-          width: 100%;
-      }
-
-      .Card1-img {
-          width: 70%;
-          float: right;
-      }
-
-      .Card1-img img {
-          max-width: 100%;
-      }
-
-      .Card1-Subject {
-          width: 30%;
-          float: left;
-          font-size: 150px;
-      }
-
-      /*card-2*/
-
-      .body-2-Card2 {
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          position: relative;
-      }
-
-      .Card2-img {
-          width: 70%;
-          float: left;
-          position: relative; /* Needed for absolute positioning of child elements */
-      }
-
-      .Card2-img img {
-          max-width: 100%;
-      }
-
-      .Card2-Subject {
-          width: 30%;
-          text-align: right;
-          direction: rtl;
-          position: absolute; /* Position relative to the nearest positioned ancestor */
-          right: 0; /* Align to the right edge of the parent */
-          top: 0; /* Align to the top edge of the parent */
-          font-size: 150px;
-           /* Move the element 20% to the left */
-          z-index: 1; /* Ensure the text is above the image */
-      }
-
-      /*Card-3*/
-      .body-2-Card3 {
-        width: 100%;
-    }
-
-    .Card3-img {
-        width: 70%;
-        float: right;
-    }
-
-    .Card3-img img {
-        max-width: 100%;
-    }
-
-    .Card3-Subject {
-        width: 30%;
-        float: left;
-        font-size: 150px;
-    }
+     

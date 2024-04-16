@@ -29,6 +29,16 @@ function MyCarousel() {
             </div>
         </div>
       </Carousel.Item>
+      <Carousel.Item>
+        <div className='body-2-Card3'>
+            <div className='Card3-img'>
+                <img src="https://i.imgur.com/qBdi8JH.jpeg" className="d-block w-100" alt="naturel1" />
+            </div>
+            <div className='Card3-Subject'>
+                <span>Discover New Naturalness</span>
+            </div>
+        </div>
+      </Carousel.Item>
     </Carousel>
 
     // <div className='body-2-Slider'>

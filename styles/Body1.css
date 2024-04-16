@@ -1,0 +1,28 @@
+.body-1 .body-1-img {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body-1 .body-1-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .body-1 .body-1-Subject {
+    width: 70%;
+    padding: 30px;
+    background-color: #c6f4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body-1 .body-1-Subject ul {
+    list-style: none;
+  }
+
+  .body-1 .body-1-Subject ul li p {
+    font-size: 22px;
+  }

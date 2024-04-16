@@ -1,7 +1,4 @@
-
-
-/*card-1*/
-
+ /*card-1*/
 .body-2-Card1 {
     width: 100%;
 }
@@ -42,10 +39,32 @@
 
 .Card2-Subject {
     width: 30%;
+    text-align: right;
+    direction: rtl;
     position: absolute; /* Position relative to the nearest positioned ancestor */
     right: 0; /* Align to the right edge of the parent */
     top: 0; /* Align to the top edge of the parent */
     font-size: 150px;
-    transform: translateX(-30%); /* Move the element 20% to the left */
+     /* Move the element 20% to the left */
     z-index: 1; /* Ensure the text is above the image */
+}
+
+/*Card-3*/
+.body-2-Card3 {
+  width: 100%;
+}
+
+.Card3-img {
+  width: 70%;
+  float: right;
+}
+
+.Card3-img img {
+  max-width: 100%;
+}
+
+.Card3-Subject {
+  width: 30%;
+  float: left;
+  font-size: 150px;
 }

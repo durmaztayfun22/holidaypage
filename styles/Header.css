@@ -1,0 +1,68 @@
+.imgHoliday1 {
+  max-width: 100%;
+  height: 500px;
+  position: relative; /* Pozisyonu belirle */
+}
+
+.imgHoliday1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Resmi arka plana yerleştir */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.imgHoliday1-content .imgHoliday1-menuLEFT {
+  margin-top: 5%;
+  width: 50%;
+  float: left;
+  border-bottom: 2px white;
+}
+
+.imgHoliday1-content .imgHoliday1-menuLEFT h3 {
+  margin-left: 20%;
+  color: white;
+}
+
+.imgHoliday1-content .imgHoliday1-menuRIGHT {
+  margin-top: 5%;
+  width: 50%;
+  float: right;
+
+}
+
+.imgHoliday1-content .imgHoliday1-menuRIGHT ul {
+  list-style: none;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 20%;
+}
+
+.imgHoliday1-content .imgHoliday1-menuRIGHT ul li {
+  margin-right: 50%;
+}
+
+.imgHoliday1-content .imgHoliday1-menuRIGHT ul li a {
+  color: white; /* Link rengini beyaz yap */
+  text-decoration: none; /* Alt çizgiyi kaldır */
+}
+
+
+.imgHoliday1-overlay {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Metin rengini beyaz yapar */
+}
+
