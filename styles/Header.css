@@ -14,20 +14,26 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.imgHoliday1-content {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
 .imgHoliday1-content .imgHoliday1-menuLEFT {
-  margin-top: 5%;
+  margin-top: 4%;
   width: 50%;
   float: left;
-  border-bottom: 2px white;
+  border-bottom: 2px black;
 }
 
 .imgHoliday1-content .imgHoliday1-menuLEFT h3 {
-  margin-left: 20%;
-  color: white;
+  padding-right: 40%;
+  color: black;
 }
 
 .imgHoliday1-content .imgHoliday1-menuRIGHT {
-  margin-top: 5%;
+  margin-top: 4%;
   width: 50%;
   float: right;
 
@@ -44,11 +50,11 @@
 }
 
 .imgHoliday1-content .imgHoliday1-menuRIGHT ul li {
-  margin-right: 50%;
+  margin-right: 30%;
 }
 
 .imgHoliday1-content .imgHoliday1-menuRIGHT ul li a {
-  color: white; /* Link rengini beyaz yap */
+  color: black; /* Link rengini beyaz yap */
   text-decoration: none; /* Alt çizgiyi kaldır */
 }
 

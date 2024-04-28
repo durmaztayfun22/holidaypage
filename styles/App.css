@@ -12,8 +12,13 @@ body {
     height: auto;
   }
 
+  .headerBottomCont {
+    width: 100%;
+    height: auto;
+  }
+
   .card-container {
-    
+
     width: 100%;
     height: auto;
   }
@@ -36,6 +41,9 @@ body {
     height: auto;
   }
 
+  .Footer-index{
+    margin-top: 5%;
+  }
  
 
      

@@ -1,11 +1,12 @@
 import React from 'react';
-// import Slider from './components/Silder'; // Slider bileşenini import et
 import MyCarousel from './components/MyCarousel';
 import BestOf from './components/BestOf';
 import X from './components/X';
 import Body1 from './components/Body1';
 import CardContainer from './components/Card-Container';
 import Header from './components/Header';
+import HeaderBottom from './components/HeaderBottom';
+import Footer from './components/Footer';
 import '../styles/App.css'
 
 
@@ -16,6 +17,10 @@ export default function App() {
             <header>
                 <Header/>
             </header>
+
+            <div className='headerBottomCont'>
+                <HeaderBottom/>
+            </div>
 
             <div className='card-container'>
                 <CardContainer/>
@@ -35,6 +40,10 @@ export default function App() {
 
             <div className='body-2-Slider'>
                 <MyCarousel/>
+            </div>
+
+            <div className='Footer-index'>
+                <Footer/>
             </div>
         </div>
     );

@@ -1,0 +1,220 @@
+.HotelRoom {
+    width: 100%;
+    height: auto;
+}
+
+.HotelRoom-left {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.HotelRoom-left .HotelRoom-left-Card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-img {
+    position: relative;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-img img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-img span {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject {
+    height: auto;
+    width: auto;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .spann {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Card {
+    width: auto;
+    height: auto;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Card ul li {
+    background-color: hsl(186, 50%, 92%);
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-bottom: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Card ul li h1 {
+    font-size: 60px;
+    padding-left: 10px;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Card ul li ul {
+    padding-left: 0;
+    width: 100%;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Card ul li ul .Card-Head {
+    font-size: 20px;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Card ul li ul .Card-Description {
+    font-size: 10px;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Card img{
+    width: 70px;
+    height: 70px;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Rate {
+    width: auto;
+    height: auto;
+}
+
+.HotelRoom-left .HotelRoom-left-Card .HotelRoom-left-Card-Subject .HotelRoom-left-Card-Subject-Rate img {
+    width: 50px;
+    height: 50px;
+}
+
+.HotelRoom-right {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+.HotelRoom-right .HotelRoom-right-Card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-img {
+    position: relative;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-img img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-img span {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject {
+    height: auto;
+    width: auto;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .spann {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Card {
+    width: auto;
+    height: auto;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Card ul li {
+    background-color: hsl(186, 50%, 92%);
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-bottom: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Card ul li h1 {
+    font-size: 60px;
+    padding-left: 10px;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Card ul li ul {
+    padding-left: 0;
+    width: 100%;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Card ul li ul .Card-Head {
+    font-size: 20px;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Card ul li ul .Card-Description {
+    font-size: 10px;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Card img{
+    width: 70px;
+    height: 70px;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Rate {
+    width: auto;
+    height: auto;
+}
+
+.HotelRoom-right .HotelRoom-right-Card .HotelRoom-right-Card-Subject .HotelRoom-right-Card-Subject-Rate img {
+    width: 50px;
+    height: 50px;
+}

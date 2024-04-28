@@ -1,3 +1,12 @@
+h3 {
+    font-size: 24px; /* Başlık font boyutunu ayarlayın */
+    font-family: Arial, sans-serif; /* Başlık font ailesini ayarlayın */
+    font-weight: bold; /* Başlık font ağırlığını ayarlayın */
+    color: black; /* Başlık rengini ayarlayın */
+    text-align: center; /* Başlığı merkezleme */
+    margin-bottom: 10px; /* Başlık altındaki boşluk */
+}
+
 .body-1 .body-1-img {
     width: 30%;
     display: flex;
