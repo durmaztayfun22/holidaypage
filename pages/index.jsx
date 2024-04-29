@@ -1,11 +1,7 @@
 import React from 'react';
-import MyCarousel from './components/MyCarousel';
-import BestOf from './components/BestOf';
-import X from './components/X';
-import Body1 from './components/Body1';
 import CardContainer from './components/Card-Container';
-import Header from './components/Header';
 import HeaderBottom from './components/HeaderBottom';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import '../styles/App.css'
 
@@ -24,22 +20,6 @@ export default function App() {
 
             <div className='card-container'>
                 <CardContainer/>
-            </div>
-            
-            <div className='body-1'>
-                <Body1/>
-            </div>
-
-            <div className='cardX'>
-               <X/>
-            </div>
-
-            <div className='bestOf'>
-                <BestOf/>
-            </div>
-
-            <div className='body-2-Slider'>
-                <MyCarousel/>
             </div>
 
             <div className='Footer-index'>

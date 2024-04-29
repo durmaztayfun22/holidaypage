@@ -1,0 +1,21 @@
+header {
+    max-width: 100%;
+    height: auto;
+}
+
+.body-1 {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.cardX {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.Footer-index{
+    margin-top: 5%;
+  }

@@ -17,16 +17,19 @@ export default function Header() {
                 <div className="imgHoliday1-menuLEFT">
                     {/* <img src="https://i.imgur.com/77C2A6I.png" alt="sun" className="logo"/> */}
                     <h3>HOLIDAY</h3>
+                    {/* <div className="horizontal-line"></div> */}
                 </div>
                 <div className="imgHoliday1-menuRIGHT">
                     <ul>
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/">About Us</Link></li>
-                        <li><Link href="/">Hotel Rooms</Link></li>
-                        <li><Link href="/">Cities</Link></li>
-                        <li><Link href="/">Contact</Link></li>
+                        <li><Link href="/About">About Us</Link></li>
+                        <li><Link href="/HotelRooms">Hotel Rooms</Link></li>
+                        <li><Link href="/Cities">Cities</Link></li>
+                        <li><Link href="/Contact">Contact</Link></li>
                     </ul>
+                    {/* <div className="horizontal-line"></div> */}
                 </div>
+                
             </div>
         </>
     )
